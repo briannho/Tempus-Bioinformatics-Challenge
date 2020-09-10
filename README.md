@@ -1,6 +1,6 @@
 # Tempus Bioinformatics Challenge
 ### Overview
-The challenge is to construct a prototype a variant annotation tool that annotates vcf files. The tool accepts vcf files as input and outputs a tsv file with annotations. A jupyter notebook is included as an extended guide that explains the code with test data included. 
+The challenge is to construct a prototype variant annotation tool that annotates vcf files. The tool accepts vcf files as input and outputs a tsv file with annotations. A jupyter notebook is included as an extended guide that explains the code with test data included. 
 
 ### Requirements
 The tool is a python script, so Python 3.7 or greater must be installed.
