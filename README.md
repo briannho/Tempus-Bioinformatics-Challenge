@@ -27,10 +27,12 @@ python3 tempus_bioi_challenge.py -i /path/to/in.vcf -o /path/to/out.tsv
 ```
 ### Input VCF File
 The input file must be a VCF file. The following fields must also be included in the VCF file in addition to mandatory header:
+
 INFO FIELD:
 - INFO=<ID=DP,Number=1,Type=Integer,Description="Total read depth at the locus">
 - INFO=<ID=AO,Number=A,Type=Integer,Description="Alternate allele observations, with partial observations recorded fractionally">
 - INFO=<ID=TYPE,Number=A,Type=String,Description="The type of allele, either snp, mnp, ins, del, or complex.">
+
 FORMAT FIELD:
 - FORMAT=<ID=DP,Number=1,Type=Integer,Description="Read Depth">
 - FORMAT=<ID=AO,Number=A,Type=Integer,Description="Alternate allele observation count">
