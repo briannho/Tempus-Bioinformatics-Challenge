@@ -39,10 +39,10 @@ The input file must be a VCF file. The following fields must also be included in
 
 ### Output TSV file
 The TSV file contains the following annotations for each variant: 
-- reference allele i.e. AT
-- alternate allele(s) i.e. ATA
-- variant type i.e. deletion
-- effect i.e. missense 
+- reference allele e.g. AT
+- alternate allele(s) e.g. ATA
+- variant type e.g. deletion
+- effect e.g. missense 
 - total read depth of all samples
 - number of reads supporting variants
 - percentage of reads supporting the variant
